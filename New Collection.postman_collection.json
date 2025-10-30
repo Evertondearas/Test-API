@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "87831059-297c-4cb9-9490-bea72be549ae",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26935816",
+		"_collection_link": "https://grey-escape-90328.postman.co/workspace/My-Workspace~681c16f4-a0ae-4322-8364-0b654ccdb1b8/collection/26935816-87831059-297c-4cb9-9490-bea72be549ae?action=share&source=collection_link&creator=26935816"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/operadoras?busca=Amil",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/operadoras?busca=Amil",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"operadoras"
+					],
+					"query": [
+						{
+							"key": "busca",
+							"value": "Amil"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
